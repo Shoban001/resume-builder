@@ -1,0 +1,100 @@
+.about{
+    position: relative;
+    padding: 1px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+.about .head{
+    max-width: 1100px;
+    text-align: center;
+}
+.about .head h2{
+    font-size: 30px;
+    font-weight: 500;
+    padding-bottom: 5px;
+}
+.about .head p{
+    font-size: 20px;
+    font-weight: 200;
+    line-height: 25px;
+}
+.containers{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.containers .contactInfo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.containers .contactInfo .box{
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+}
+.containers .contactInfo .box .icon{
+    max-width: 60px;
+    padding: 0 17px;
+    
+    height: 60px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    border-radius: 50%;
+}
+.containers .contactInfo .box .text{
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    flex-direction: column;
+    font-weight: 300;
+    padding-top: 6px;
+}
+.containers .contactInfo .box .text h3{
+    color: #239ce2;
+    font-weight: 500;
+}
+.contactForm{
+    width: 40%;
+    padding: 40px;
+    background: #fff;
+    border-radius: 20px;
+}
+.contactForm h2{
+    font-size: 30px;
+    color: #239ce2;
+    font-weight: 500;
+}
+.contactForm p{
+    color: #239ce2;
+    font-weight: 500;
+}
+.contactForm .inputBox{
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+.contactForm .inputBox input,
+.contactForm .inputBox textarea{
+    width: 100%;
+    padding: 5px 0;
+    margin: 10px 0;
+    font-size: 16px;
+    border-radius: 0;
+    border: none;
+    border-bottom: 2px solid #239ce2;
+    outline: none;
+    resize: none;
+}
+.contactForm .inputBox p{
+    position: absolute;
+    left: 0;
+}
